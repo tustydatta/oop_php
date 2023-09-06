@@ -8,6 +8,7 @@ $obj = new observable();
 $sk = new skype();
 $gt = new gtalk();
 $s = new stdClass();
+
 $obj->register($sk);
 $obj->register($gt);
 $obj->register($s);
